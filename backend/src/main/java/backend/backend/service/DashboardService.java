@@ -59,12 +59,16 @@ public class DashboardService {
                         .filter(this::isActive)
                         .count();
 
+        /*
+         * Count active tasks whose actual priority is CRITICAL.
+         * The database stores the value in the priority field.
+         */
         long criticalTasks =
                 tasks.stream()
                         .filter(this::isActive)
                         .filter(task ->
-                                "Critical".equalsIgnoreCase(
-                                        task.getCriticality()
+                                "CRITICAL".equalsIgnoreCase(
+                                        task.getPriority()
                                 ))
                         .count();
 
