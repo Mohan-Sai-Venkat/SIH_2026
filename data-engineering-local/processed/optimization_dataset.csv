@@ -1,0 +1,37 @@
+task_id,source_system,department,asset_id,section_id,maintenance_type,severity,maintenance_duration,status,block_request_id,requested_date,requested_start,requested_end,duration,reason,train_count,high_priority_train_count,first_train_arrival,last_train_departure,section_name,start_location,end_location,distance_km,days_to_due,is_overdue,severity_score,urgency_score,train_activity_score,high_priority_train_score,priority_score,priority_level
+TMS001,TMS,Engineering,TRK-A101,A1,Rail Crack,Critical,120,Open,BDMS001,2026-09-08,10:00,12:00,120.0,Rail crack maintenance,4.0,3.0,08:30,14:40,Section A1,Station-A,Station-B,25,1,0,4,3,4,3,61,Critical
+TMS002,TMS,Engineering,TRK-A102,A1,Ballast Defect,Medium,90,Open,,,,,,,,,,,Section A1,Station-A,Station-B,25,6,0,2,2,0,0,30,Medium
+TMS003,TMS,Engineering,TRK-B201,A2,Track Geometry,Critical,180,Open,BDMS004,2026-09-09,09:00,12:00,180.0,Track geometry correction,4.0,2.0,08:00,17:45,Section A2,Station-B,Station-C,30,0,0,4,3,4,2,59,High
+TMS004,TMS,Engineering,TRK-B202,A2,Sleeper Damage,High,120,Open,BDMS007,2026-09-11,08:00,10:00,120.0,Sleeper replacement,,,,,Section A2,Station-B,Station-C,30,3,0,3,3,0,0,45,High
+TMS005,TMS,Engineering,TRK-C301,A3,Rail Wear,Medium,90,Open,,,,,,,,,,,Section A3,Station-C,Station-D,28,11,0,2,0,0,0,20,Low
+TMS006,TMS,Engineering,TRK-C302,A3,Joint Failure,High,150,Open,BDMS010,2026-09-11,15:00,17:30,150.0,Joint failure repair,4.0,3.0,09:00,18:10,Section A3,Station-C,Station-D,28,2,0,3,3,4,3,51,High
+TMS007,TMS,Engineering,TRK-D401,A4,Ballast Defect,Low,60,Open,,,,,,,,,,,Section A4,Station-D,Station-E,35,16,0,1,0,0,0,10,Low
+TMS008,TMS,Engineering,TRK-D402,A4,Rail Crack,Critical,180,Overdue,BDMS013,2026-09-08,10:00,13:00,180.0,Rail crack repair,1.0,0.0,18:30,18:45,Section A4,Station-D,Station-E,35,-1,1,4,4,1,0,70,Critical
+TMS009,TMS,Engineering,TRK-E501,A5,Sleeper Damage,Medium,90,Open,,,,,,,,,,,Section A5,Station-E,Station-F,32,9,0,2,0,0,0,20,Low
+TMS010,TMS,Engineering,TRK-E502,A5,Track Geometry,High,120,Open,BDMS016,2026-09-10,09:00,11:00,120.0,Track geometry maintenance,3.0,2.0,08:00,15:10,Section A5,Station-E,Station-F,32,1,0,3,3,3,2,49,High
+TMS011,TMS,Engineering,TRK-F601,A6,Rail Wear,Low,60,Open,,,,,,,,,,,Section A6,Station-F,Station-G,27,21,0,1,0,0,0,10,Low
+TMS012,TMS,Engineering,TRK-F602,A6,Joint Failure,High,150,Open,BDMS019,2026-09-13,09:00,11:30,150.0,Joint failure repair,3.0,2.0,08:30,15:40,Section A6,Station-F,Station-G,27,4,0,3,2,3,2,44,Medium
+SMMS001,SMMS,S&T,SIG-A101,A1,Signal Lamp Failure,High,60,Open,BDMS002,2026-09-09,11:00,12:00,60.0,Signal lamp replacement,,,,,Section A1,Station-A,Station-B,25,1,0,3,3,0,0,45,High
+SMMS002,SMMS,S&T,SIG-A102,A1,Point Machine Fault,Critical,120,Open,,,,,,,,,,,Section A1,Station-A,Station-B,25,-1,1,4,4,0,0,70,Critical
+SMMS003,SMMS,S&T,SIG-B201,A2,Track Circuit Failure,Critical,150,Open,BDMS005,2026-09-09,10:00,12:30,150.0,Track circuit maintenance,4.0,2.0,08:00,17:45,Section A2,Station-B,Station-C,30,0,0,4,3,4,2,59,High
+SMMS004,SMMS,S&T,SIG-B202,A2,Signal Cable Fault,Medium,90,Open,,,,,,,,,,,Section A2,Station-B,Station-C,30,9,0,2,0,0,0,20,Low
+SMMS005,SMMS,S&T,SIG-C301,A3,Point Machine Fault,High,120,Open,BDMS008,2026-09-12,10:00,12:00,120.0,Point machine maintenance,,,,,Section A3,Station-C,Station-D,28,3,0,3,3,0,0,45,High
+SMMS006,SMMS,S&T,SIG-C302,A3,Signal Lamp Failure,Low,60,Open,,,,,,,,,,,Section A3,Station-C,Station-D,28,16,0,1,0,0,0,10,Low
+SMMS007,SMMS,S&T,SIG-D401,A4,Interlocking Fault,Critical,180,Overdue,BDMS011,2026-09-07,09:00,12:00,180.0,Interlocking fault repair,3.0,2.0,08:30,16:10,Section A4,Station-D,Station-E,35,-2,1,4,4,3,2,74,Critical
+SMMS008,SMMS,S&T,SIG-D402,A4,Track Circuit Failure,High,150,Open,BDMS014,2026-09-13,14:00,16:30,150.0,Track circuit maintenance,,,,,Section A4,Station-D,Station-E,35,4,0,3,2,0,0,40,Medium
+SMMS009,SMMS,S&T,SIG-E501,A5,Signal Cable Fault,Medium,90,Open,,,,,,,,,,,Section A5,Station-E,Station-F,32,11,0,2,0,0,0,20,Low
+SMMS010,SMMS,S&T,SIG-E502,A5,Point Machine Fault,High,120,Open,BDMS017,2026-09-11,13:00,15:00,120.0,Point machine maintenance,1.0,1.0,18:00,18:10,Section A5,Station-E,Station-F,32,2,0,3,3,1,1,47,High
+SMMS011,SMMS,S&T,SIG-F601,A6,Signal Lamp Failure,Low,60,Open,,,,,,,,,,,Section A6,Station-F,Station-G,27,19,0,1,0,0,0,10,Low
+SMMS012,SMMS,S&T,SIG-F602,A6,Interlocking Fault,High,180,Open,BDMS020,2026-09-14,14:00,17:00,180.0,Interlocking maintenance,1.0,0.0,18:00,18:15,Section A6,Station-F,Station-G,27,5,0,3,2,1,0,40,Medium
+TDMS001,TDMS,TRD,OHE-A101,A1,Insulator Damage,High,120,Open,BDMS003,2026-09-10,13:00,15:00,120.0,Insulator maintenance,,,,,Section A1,Station-A,Station-B,25,1,0,3,3,0,0,45,High
+TDMS002,TDMS,TRD,OHE-A102,A1,Oil Leakage,Critical,180,Open,,,,,,,,,,,Section A1,Station-A,Station-B,25,-1,1,4,4,0,0,70,Critical
+TDMS003,TDMS,TRD,OHE-B201,A2,Contact Wire Wear,Critical,150,Open,BDMS006,2026-09-10,14:00,16:30,150.0,Contact wire maintenance,,,,,Section A2,Station-B,Station-C,30,0,0,4,3,0,0,55,High
+TDMS004,TDMS,TRD,OHE-B202,A2,Insulator Damage,Medium,90,Open,,,,,,,,,,,Section A2,Station-B,Station-C,30,9,0,2,0,0,0,20,Low
+TDMS005,TDMS,TRD,OHE-C301,A3,Oil Leakage,High,180,Open,BDMS009,2026-09-12,11:00,14:00,180.0,Traction transformer maintenance,,,,,Section A3,Station-C,Station-D,28,3,0,3,3,0,0,45,High
+TDMS006,TDMS,TRD,OHE-C302,A3,Contact Wire Wear,Low,90,Open,,,,,,,,,,,Section A3,Station-C,Station-D,28,16,0,1,0,0,0,10,Low
+TDMS007,TDMS,TRD,OHE-D401,A4,Insulator Damage,Critical,150,Overdue,BDMS012,2026-09-07,13:00,15:30,150.0,Insulator damage repair,3.0,2.0,08:30,16:10,Section A4,Station-D,Station-E,35,-2,1,4,4,3,2,74,Critical
+TDMS008,TDMS,TRD,OHE-D402,A4,Mechanical Damage,High,120,Open,BDMS015,2026-09-13,10:00,12:00,120.0,Section insulator repair,,,,,Section A4,Station-D,Station-E,35,4,0,3,2,0,0,40,Medium
+TDMS009,TDMS,TRD,OHE-E501,A5,Contact Wire Wear,Medium,90,Open,,,,,,,,,,,Section A5,Station-E,Station-F,32,11,0,2,0,0,0,20,Low
+TDMS010,TDMS,TRD,OHE-E502,A5,Oil Leakage,High,180,Open,BDMS018,2026-09-11,10:00,13:00,180.0,Traction transformer maintenance,1.0,1.0,18:00,18:10,Section A5,Station-E,Station-F,32,2,0,3,3,1,1,47,High
+TDMS011,TDMS,TRD,OHE-F601,A6,Mechanical Damage,Low,90,Open,,,,,,,,,,,Section A6,Station-F,Station-G,27,19,0,1,0,0,0,10,Low
+TDMS012,TDMS,TRD,OHE-F602,A6,Insulator Damage,High,120,Open,,,,,,,,,,,Section A6,Station-F,Station-G,27,5,0,3,2,0,0,40,Medium

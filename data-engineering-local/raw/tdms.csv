@@ -1,0 +1,13 @@
+task_id,asset_id,section_id,equipment_type,fault_type,severity,reported_date,due_date,maintenance_duration,status
+TDMS001,OHE-A101,A1,Overhead Equipment,Insulator Damage,High,2026-09-01,2026-09-10,120,Open
+TDMS002,OHE-A102,A1,Traction Transformer,Oil Leakage,Critical,2026-09-02,2026-09-08,180,Open
+TDMS003,OHE-B201,A2,Overhead Equipment,Contact Wire Wear,Critical,2026-09-03,2026-09-09,150,Open
+TDMS004,OHE-B202,A2,Section Insulator,Insulator Damage,Medium,2026-09-04,2026-09-18,90,Open
+TDMS005,OHE-C301,A3,Traction Transformer,Oil Leakage,High,2026-09-01,2026-09-12,180,Open
+TDMS006,OHE-C302,A3,Overhead Equipment,Contact Wire Wear,Low,2026-09-05,2026-09-25,90,Open
+TDMS007,OHE-D401,A4,Overhead Equipment,Insulator Damage,Critical,2026-08-30,2026-09-07,150,Overdue
+TDMS008,OHE-D402,A4,Section Insulator,Mechanical Damage,High,2026-09-02,2026-09-13,120,Open
+TDMS009,OHE-E501,A5,Overhead Equipment,Contact Wire Wear,Medium,2026-09-03,2026-09-20,90,Open
+TDMS010,OHE-E502,A5,Traction Transformer,Oil Leakage,High,2026-09-02,2026-09-11,180,Open
+TDMS011,OHE-F601,A6,Section Insulator,Mechanical Damage,Low,2026-09-05,2026-09-28,90,Open
+TDMS012,OHE-F602,A6,Overhead Equipment,Insulator Damage,High,2026-09-01,2026-09-14,120,Open
