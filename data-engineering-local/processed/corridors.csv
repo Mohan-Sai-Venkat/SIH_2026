@@ -1,7 +1,0 @@
-section_id,section_name,start_location,end_location,distance_km
-A1,Section A1,Station-A,Station-B,25
-A2,Section A2,Station-B,Station-C,30
-A3,Section A3,Station-C,Station-D,28
-A4,Section A4,Station-D,Station-E,35
-A5,Section A5,Station-E,Station-F,32
-A6,Section A6,Station-F,Station-G,27
