@@ -1,0 +1,37 @@
+task_id,source_system,department,asset_id,section_id,maintenance_type,severity,maintenance_duration,status,days_to_due,is_overdue,severity_score,urgency_score,train_activity_score,high_priority_train_score,priority_score,priority_level
+TDMS007,TDMS,TRD,OHE-D401,A4,Insulator Damage,Critical,150,Overdue,-2,1,4,4,3,2,74,Critical
+SMMS007,SMMS,S&T,SIG-D401,A4,Interlocking Fault,Critical,180,Overdue,-2,1,4,4,3,2,74,Critical
+TMS008,TMS,Engineering,TRK-D402,A4,Rail Crack,Critical,180,Overdue,-1,1,4,4,1,0,70,Critical
+SMMS002,SMMS,S&T,SIG-A102,A1,Point Machine Fault,Critical,120,Open,-1,1,4,4,0,0,70,Critical
+TDMS002,TDMS,TRD,OHE-A102,A1,Oil Leakage,Critical,180,Open,-1,1,4,4,0,0,70,Critical
+TMS001,TMS,Engineering,TRK-A101,A1,Rail Crack,Critical,120,Open,1,0,4,3,4,3,61,Critical
+TMS003,TMS,Engineering,TRK-B201,A2,Track Geometry,Critical,180,Open,0,0,4,3,4,2,59,High
+SMMS003,SMMS,S&T,SIG-B201,A2,Track Circuit Failure,Critical,150,Open,0,0,4,3,4,2,59,High
+TDMS003,TDMS,TRD,OHE-B201,A2,Contact Wire Wear,Critical,150,Open,0,0,4,3,0,0,55,High
+TMS006,TMS,Engineering,TRK-C302,A3,Joint Failure,High,150,Open,2,0,3,3,4,3,51,High
+TMS010,TMS,Engineering,TRK-E502,A5,Track Geometry,High,120,Open,1,0,3,3,3,2,49,High
+SMMS010,SMMS,S&T,SIG-E502,A5,Point Machine Fault,High,120,Open,2,0,3,3,1,1,47,High
+TDMS010,TDMS,TRD,OHE-E502,A5,Oil Leakage,High,180,Open,2,0,3,3,1,1,47,High
+TMS004,TMS,Engineering,TRK-B202,A2,Sleeper Damage,High,120,Open,3,0,3,3,0,0,45,High
+SMMS001,SMMS,S&T,SIG-A101,A1,Signal Lamp Failure,High,60,Open,1,0,3,3,0,0,45,High
+TDMS005,TDMS,TRD,OHE-C301,A3,Oil Leakage,High,180,Open,3,0,3,3,0,0,45,High
+SMMS005,SMMS,S&T,SIG-C301,A3,Point Machine Fault,High,120,Open,3,0,3,3,0,0,45,High
+TDMS001,TDMS,TRD,OHE-A101,A1,Insulator Damage,High,120,Open,1,0,3,3,0,0,45,High
+TMS012,TMS,Engineering,TRK-F602,A6,Joint Failure,High,150,Open,4,0,3,2,3,2,44,Medium
+TDMS012,TDMS,TRD,OHE-F602,A6,Insulator Damage,High,120,Open,5,0,3,2,0,0,40,Medium
+SMMS008,SMMS,S&T,SIG-D402,A4,Track Circuit Failure,High,150,Open,4,0,3,2,0,0,40,Medium
+TDMS008,TDMS,TRD,OHE-D402,A4,Mechanical Damage,High,120,Open,4,0,3,2,0,0,40,Medium
+SMMS012,SMMS,S&T,SIG-F602,A6,Interlocking Fault,High,180,Open,5,0,3,2,1,0,40,Medium
+TMS002,TMS,Engineering,TRK-A102,A1,Ballast Defect,Medium,90,Open,6,0,2,2,0,0,30,Medium
+TMS009,TMS,Engineering,TRK-E501,A5,Sleeper Damage,Medium,90,Open,9,0,2,0,0,0,20,Low
+TMS005,TMS,Engineering,TRK-C301,A3,Rail Wear,Medium,90,Open,11,0,2,0,0,0,20,Low
+SMMS009,SMMS,S&T,SIG-E501,A5,Signal Cable Fault,Medium,90,Open,11,0,2,0,0,0,20,Low
+SMMS004,SMMS,S&T,SIG-B202,A2,Signal Cable Fault,Medium,90,Open,9,0,2,0,0,0,20,Low
+TDMS009,TDMS,TRD,OHE-E501,A5,Contact Wire Wear,Medium,90,Open,11,0,2,0,0,0,20,Low
+TDMS004,TDMS,TRD,OHE-B202,A2,Insulator Damage,Medium,90,Open,9,0,2,0,0,0,20,Low
+TMS007,TMS,Engineering,TRK-D401,A4,Ballast Defect,Low,60,Open,16,0,1,0,0,0,10,Low
+TMS011,TMS,Engineering,TRK-F601,A6,Rail Wear,Low,60,Open,21,0,1,0,0,0,10,Low
+SMMS006,SMMS,S&T,SIG-C302,A3,Signal Lamp Failure,Low,60,Open,16,0,1,0,0,0,10,Low
+SMMS011,SMMS,S&T,SIG-F601,A6,Signal Lamp Failure,Low,60,Open,19,0,1,0,0,0,10,Low
+TDMS006,TDMS,TRD,OHE-C302,A3,Contact Wire Wear,Low,90,Open,16,0,1,0,0,0,10,Low
+TDMS011,TDMS,TRD,OHE-F601,A6,Mechanical Damage,Low,90,Open,19,0,1,0,0,0,10,Low
