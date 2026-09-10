@@ -1,0 +1,7 @@
+task_id,department,section_id,priority_level,priority_score,maintenance_duration,window_date,window_start,window_end,window_duration,unused_window_minutes,matching_score,optimization_rank
+SMMS007,S&T,A4,Critical,74,180,2026-09-07,12:40,16:00,200,20,103.0,1
+TDMS007,TRD,A4,Critical,74,150,2026-09-07,12:40,16:00,200,50,101.5,2
+TMS001,Engineering,A1,Critical,61,120,2026-09-08,10:00,12:00,120,0,91.0,3
+TMS006,Engineering,A3,High,51,150,2026-09-11,09:10,12:30,200,50,73.5,4
+TMS010,Engineering,A5,High,49,120,2026-09-10,15:10,18:00,170,50,71.05882352941177,5
+TMS012,Engineering,A6,Medium,44,150,2026-09-13,08:45,12:00,195,45,61.69230769230769,6
