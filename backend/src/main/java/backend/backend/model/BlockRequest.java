@@ -1,6 +1,7 @@
 package backend.backend.model;
 
 import jakarta.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "block_requests")
@@ -10,20 +11,28 @@ public class BlockRequest {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "block_id", nullable = false, unique = true)
     private String blockId;
 
+    @Column(name = "task_id", nullable = false)
     private String taskId;
 
+    @Column(name = "corridor_id", nullable = false)
     private String corridorId;
 
-    private String requestedStart;
+    @Column(name = "requested_start", nullable = false)
+    private LocalDateTime requestedStart;
 
-    private String requestedEnd;
+    @Column(name = "requested_end", nullable = false)
+    private LocalDateTime requestedEnd;
 
+    @Column(name = "requested_duration", nullable = false)
     private Integer requestedDuration;
 
+    @Column(nullable = false)
     private String department;
 
+    @Column(name = "request_status", nullable = false)
     private String requestStatus;
 
     public BlockRequest() {
@@ -34,8 +43,8 @@ public class BlockRequest {
             String blockId,
             String taskId,
             String corridorId,
-            String requestedStart,
-            String requestedEnd,
+            LocalDateTime requestedStart,
+            LocalDateTime requestedEnd,
             Integer requestedDuration,
             String department,
             String requestStatus) {
@@ -83,19 +92,19 @@ public class BlockRequest {
         this.corridorId = corridorId;
     }
 
-    public String getRequestedStart() {
+    public LocalDateTime getRequestedStart() {
         return requestedStart;
     }
 
-    public void setRequestedStart(String requestedStart) {
+    public void setRequestedStart(LocalDateTime requestedStart) {
         this.requestedStart = requestedStart;
     }
 
-    public String getRequestedEnd() {
+    public LocalDateTime getRequestedEnd() {
         return requestedEnd;
     }
 
-    public void setRequestedEnd(String requestedEnd) {
+    public void setRequestedEnd(LocalDateTime requestedEnd) {
         this.requestedEnd = requestedEnd;
     }
 

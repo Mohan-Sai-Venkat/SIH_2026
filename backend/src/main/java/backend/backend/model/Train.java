@@ -1,6 +1,7 @@
 package backend.backend.model;
 
 import jakarta.persistence.*;
+import java.time.LocalTime;
 
 @Entity
 @Table(name = "trains")
@@ -16,13 +17,13 @@ public class Train {
 
     private String corridorId;
 
-    private String arrivalTime;
+    private LocalTime arrivalTime;
 
-    private String departureTime;
+    private LocalTime departureTime;
 
     private String trainType;
 
-    private Integer priority;
+    private String priority;
 
     public Train() {
     }
@@ -32,10 +33,10 @@ public class Train {
             String trainId,
             String trainName,
             String corridorId,
-            String arrivalTime,
-            String departureTime,
+            LocalTime arrivalTime,
+            LocalTime departureTime,
             String trainType,
-            Integer priority) {
+            String priority) {
 
         this.id = id;
         this.trainId = trainId;
@@ -79,19 +80,19 @@ public class Train {
         this.corridorId = corridorId;
     }
 
-    public String getArrivalTime() {
+    public LocalTime getArrivalTime() {
         return arrivalTime;
     }
 
-    public void setArrivalTime(String arrivalTime) {
+    public void setArrivalTime(LocalTime arrivalTime) {
         this.arrivalTime = arrivalTime;
     }
 
-    public String getDepartureTime() {
+    public LocalTime getDepartureTime() {
         return departureTime;
     }
 
-    public void setDepartureTime(String departureTime) {
+    public void setDepartureTime(LocalTime departureTime) {
         this.departureTime = departureTime;
     }
 
@@ -103,11 +104,11 @@ public class Train {
         this.trainType = trainType;
     }
 
-    public Integer getPriority() {
+    public String getPriority() {
         return priority;
     }
 
-    public void setPriority(Integer priority) {
+    public void setPriority(String priority) {
         this.priority = priority;
     }
 }
