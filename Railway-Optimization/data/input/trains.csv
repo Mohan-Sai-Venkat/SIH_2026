@@ -1,0 +1,6 @@
+train_id,date,start_time,end_time,location,train_type
+TR001,2026-09-12,08:00,09:00,A12,Passenger
+TR002,2026-09-12,12:30,13:30,A12,Passenger
+TR003,2026-09-12,14:00,15:00,C21,Passenger
+TR004,2026-09-12,17:30,18:30,C21,Goods
+TR005,2026-09-13,09:00,10:00,B08,Passenger
