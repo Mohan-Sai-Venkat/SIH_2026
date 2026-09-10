@@ -1,0 +1,7 @@
+task_id,decision,reason
+TDMS007,Scheduled,Scheduled because the task has Critical priority (74.0) and a strong matching score (101.50). Block utilization is 66.67%.
+SMMS007,Scheduled,Scheduled because the task has Critical priority (74.0) and a strong matching score (103.00). Block utilization is 90.00%.
+TMS001,Scheduled,Scheduled because the task has Critical priority (61.0) and a strong matching score (91.00). Block utilization is 100.00%.
+TMS010,Scheduled,Scheduled because the task has High priority (49.0) with a suitable maintenance window and matching score (71.06). Block utilization is 70.59%.
+TMS006,Scheduled,Scheduled because the task has High priority (51.0) with a suitable maintenance window and matching score (73.50). Block utilization is 75.00%.
+TMS012,Scheduled,Scheduled because a feasible maintenance window was available and selected by the optimizer. Block utilization is 76.92%.

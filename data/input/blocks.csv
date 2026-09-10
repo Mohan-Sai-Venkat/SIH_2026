@@ -1,0 +1,6 @@
+block_id,date,start_time,end_time,location,block_type
+B001,2026-09-12,10:00,12:00,A12,Combined
+B002,2026-09-12,13:00,14:00,A12,Track
+B003,2026-09-12,15:00,17:00,C21,Combined
+B004,2026-09-13,10:00,12:00,B08,Track
+B005,2026-09-14,14:00,16:00,C21,Combined
