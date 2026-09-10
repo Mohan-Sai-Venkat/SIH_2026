@@ -1,0 +1,7 @@
+task_id,department,location,duration,priority,criticality,deadline,block_type
+T001,Engineering,A12,120,9,HIGH,2026-09-12,Track
+T002,S&T,A12,60,8,HIGH,2026-09-12,Signal
+T003,Traction,A12,90,7,MEDIUM,2026-09-13,Traction
+T004,Engineering,B08,60,6,MEDIUM,2026-09-14,Track
+T005,S&T,C21,90,10,HIGH,2026-09-12,Signal
+T006,Traction,C21,90,8,HIGH,2026-09-12,Traction

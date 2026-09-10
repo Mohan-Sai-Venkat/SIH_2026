@@ -1,0 +1,7 @@
+date,day,department,tasks,maintenance_minutes,sections
+2026-09-07,Monday,S&T,1,180,1
+2026-09-07,Monday,TRD,1,150,1
+2026-09-08,Tuesday,Engineering,1,120,1
+2026-09-10,Thursday,Engineering,1,120,1
+2026-09-11,Friday,Engineering,1,150,1
+2026-09-13,Sunday,Engineering,1,150,1
