@@ -1,0 +1,37 @@
+task_id,department,section_id,maintenance_type,start_location,end_location,block_id,start_time,end_time,duration_minutes,priority_level,priority_score,train_count,high_priority_train_count
+SMMS001,S&T,A1,Signal Lamp Failure,Station-A,Station-B,BLOCK-A1,00:00,01:00,60,High,0.84,0.0,0.0
+SMMS004,S&T,A2,Signal Cable Fault,Station-B,Station-C,BLOCK-A2,00:00,01:30,90,Low,0.98,0.0,0.0
+SMMS006,S&T,A3,Signal Lamp Failure,Station-C,Station-D,BLOCK-A3,00:00,01:00,60,Low,1.0,0.0,0.0
+TMS007,Engineering,A4,Ballast Defect,Station-D,Station-E,BLOCK-A4,00:00,01:00,60,Low,0.97,0.0,0.0
+SMMS009,S&T,A5,Signal Cable Fault,Station-E,Station-F,BLOCK-A5,00:00,01:30,90,Low,0.98,0.0,0.0
+SMMS011,S&T,A6,Signal Lamp Failure,Station-F,Station-G,BLOCK-A6,00:00,01:00,60,Low,1.0,0.0,0.0
+TMS002,Engineering,A1,Ballast Defect,Station-A,Station-B,BLOCK-A1,01:00,02:30,90,Medium,0.84,0.0,0.0
+TDMS006,TRD,A3,Contact Wire Wear,Station-C,Station-D,BLOCK-A3,01:00,02:30,90,Low,0.98,0.0,0.0
+TDMS008,TRD,A4,Mechanical Damage,Station-D,Station-E,BLOCK-A4,01:00,03:00,120,Medium,0.96,0.0,0.0
+TMS011,Engineering,A6,Rail Wear,Station-F,Station-G,BLOCK-A6,01:00,02:00,60,Low,0.97,0.0,0.0
+TDMS004,TRD,A2,Insulator Damage,Station-B,Station-C,BLOCK-A2,01:30,03:00,90,Low,0.96,0.0,0.0
+TDMS009,TRD,A5,Contact Wire Wear,Station-E,Station-F,BLOCK-A5,01:30,03:00,90,Low,0.97,0.0,0.0
+TDMS011,TRD,A6,Mechanical Damage,Station-F,Station-G,BLOCK-A6,02:00,03:30,90,Low,0.98,0.0,0.0
+TDMS001,TRD,A1,Insulator Damage,Station-A,Station-B,BLOCK-A1,02:30,04:30,120,High,0.9,0.0,0.0
+TMS005,Engineering,A3,Rail Wear,Station-C,Station-D,BLOCK-A3,02:30,04:00,90,Low,0.94,0.0,0.0
+TMS004,Engineering,A2,Sleeper Damage,Station-B,Station-C,BLOCK-A2,03:00,05:00,120,High,0.88,0.0,0.0
+SMMS008,S&T,A4,Track Circuit Failure,Station-D,Station-E,BLOCK-A4,03:00,05:30,150,Medium,0.95,0.0,0.0
+TMS009,Engineering,A5,Sleeper Damage,Station-E,Station-F,BLOCK-A5,03:00,04:30,90,Low,0.94,0.0,0.0
+TDMS012,TRD,A6,Insulator Damage,Station-F,Station-G,BLOCK-A6,03:30,05:30,120,Medium,0.98,0.0,0.0
+SMMS005,S&T,A3,Point Machine Fault,Station-C,Station-D,BLOCK-A3,04:00,06:00,120,High,0.91,0.0,0.0
+SMMS002,S&T,A1,Point Machine Fault,Station-A,Station-B,BLOCK-A1,04:30,06:30,120,Critical,0.82,0.0,0.0
+SMMS010,S&T,A5,Point Machine Fault,Station-E,Station-F,BLOCK-A5,04:30,06:30,120,High,0.94,1.0,1.0
+SMMS003,S&T,A2,Track Circuit Failure,Station-B,Station-C,BLOCK-A2,05:00,07:30,150,High,0.77,4.0,2.0
+TDMS007,TRD,A4,Insulator Damage,Station-D,Station-E,BLOCK-A4,05:30,08:00,150,Critical,0.94,3.0,2.0
+TMS012,Engineering,A6,Joint Failure,Station-F,Station-G,BLOCK-A6,05:30,08:00,150,Medium,0.92,3.0,2.0
+TMS006,Engineering,A3,Joint Failure,Station-C,Station-D,BLOCK-A3,06:00,08:30,150,High,0.75,4.0,3.0
+TMS001,Engineering,A1,Rail Crack,Station-A,Station-B,BLOCK-A1,06:30,08:30,120,Critical,0.78,4.0,3.0
+TMS010,Engineering,A5,Track Geometry,Station-E,Station-F,BLOCK-A5,06:30,08:30,120,High,0.68,3.0,2.0
+TDMS003,TRD,A2,Contact Wire Wear,Station-B,Station-C,BLOCK-A2,07:30,10:00,150,High,0.77,0.0,0.0
+SMMS007,S&T,A4,Interlocking Fault,Station-D,Station-E,BLOCK-A4,08:00,11:00,180,Critical,0.98,3.0,2.0
+SMMS012,S&T,A6,Interlocking Fault,Station-F,Station-G,BLOCK-A6,08:00,11:00,180,Medium,0.87,1.0,0.0
+TDMS002,TRD,A1,Oil Leakage,Station-A,Station-B,BLOCK-A1,08:30,11:30,180,Critical,0.92,0.0,0.0
+TDMS005,TRD,A3,Oil Leakage,Station-C,Station-D,BLOCK-A3,08:30,11:30,180,High,0.74,0.0,0.0
+TDMS010,TRD,A5,Oil Leakage,Station-E,Station-F,BLOCK-A5,08:30,11:30,180,High,0.82,1.0,1.0
+TMS003,Engineering,A2,Track Geometry,Station-B,Station-C,BLOCK-A2,10:00,13:00,180,High,0.72,4.0,2.0
+TMS008,Engineering,A4,Rail Crack,Station-D,Station-E,BLOCK-A4,11:00,14:00,180,Critical,0.96,1.0,0.0
