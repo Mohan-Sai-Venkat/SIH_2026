@@ -11,8 +11,7 @@ public class OptimizationController {
 
     private final RailwayOptimizationClient optimizationClient;
 
-    public OptimizationController(
-            RailwayOptimizationClient optimizationClient) {
+    public OptimizationController(RailwayOptimizationClient optimizationClient) {
         this.optimizationClient = optimizationClient;
     }
 
@@ -21,7 +20,6 @@ public class OptimizationController {
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity<String> runOptimization() {
-
         return ResponseEntity.ok(
                 optimizationClient.runOptimization()
         );
