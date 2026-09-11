@@ -1,0 +1,37 @@
+task_id,department,section_id,maintenance_type,maintenance_duration,status,requested_date,requested_start,requested_end,train_count,high_priority_train_count,start_location,end_location,rank,priority_level,priority_score
+SMMS011,S&T,A6,Signal Lamp Failure,60,Open,,,,,,Station-F,Station-G,2,Low,1.0
+SMMS006,S&T,A3,Signal Lamp Failure,60,Open,,,,,,Station-C,Station-D,1,Low,1.0
+SMMS004,S&T,A2,Signal Cable Fault,90,Open,,,,,,Station-B,Station-C,5,Low,0.98
+SMMS007,S&T,A4,Interlocking Fault,180,Overdue,2026-09-07,09:00,12:00,3.0,2.0,Station-D,Station-E,3,Critical,0.98
+TDMS006,TRD,A3,Contact Wire Wear,90,Open,,,,,,Station-C,Station-D,6,Low,0.98
+TDMS012,TRD,A6,Insulator Damage,120,Open,,,,,,Station-F,Station-G,4,Medium,0.98
+SMMS009,S&T,A5,Signal Cable Fault,90,Open,,,,,,Station-E,Station-F,8,Low,0.98
+TDMS011,TRD,A6,Mechanical Damage,90,Open,,,,,,Station-F,Station-G,7,Low,0.98
+TMS011,Engineering,A6,Rail Wear,60,Open,,,,,,Station-F,Station-G,11,Low,0.97
+TMS007,Engineering,A4,Ballast Defect,60,Open,,,,,,Station-D,Station-E,9,Low,0.97
+TDMS009,TRD,A5,Contact Wire Wear,90,Open,,,,,,Station-E,Station-F,10,Low,0.97
+TDMS004,TRD,A2,Insulator Damage,90,Open,,,,,,Station-B,Station-C,14,Low,0.96
+TDMS008,TRD,A4,Mechanical Damage,120,Open,2026-09-13,10:00,12:00,,,Station-D,Station-E,13,Medium,0.96
+TMS008,Engineering,A4,Rail Crack,180,Overdue,2026-09-08,10:00,13:00,1.0,0.0,Station-D,Station-E,12,Critical,0.96
+SMMS008,S&T,A4,Track Circuit Failure,150,Open,2026-09-13,14:00,16:30,,,Station-D,Station-E,15,Medium,0.95
+TMS005,Engineering,A3,Rail Wear,90,Open,,,,,,Station-C,Station-D,17,Low,0.94
+SMMS010,S&T,A5,Point Machine Fault,120,Open,2026-09-11,13:00,15:00,1.0,1.0,Station-E,Station-F,18,High,0.94
+TDMS007,TRD,A4,Insulator Damage,150,Overdue,2026-09-07,13:00,15:30,3.0,2.0,Station-D,Station-E,16,Critical,0.94
+TMS009,Engineering,A5,Sleeper Damage,90,Open,,,,,,Station-E,Station-F,19,Low,0.94
+TDMS002,TRD,A1,Oil Leakage,180,Open,,,,,,Station-A,Station-B,20,Critical,0.92
+TMS012,Engineering,A6,Joint Failure,150,Open,2026-09-13,09:00,11:30,3.0,2.0,Station-F,Station-G,21,Medium,0.92
+SMMS005,S&T,A3,Point Machine Fault,120,Open,2026-09-12,10:00,12:00,,,Station-C,Station-D,22,High,0.91
+TDMS001,TRD,A1,Insulator Damage,120,Open,2026-09-10,13:00,15:00,,,Station-A,Station-B,23,High,0.9
+TMS004,Engineering,A2,Sleeper Damage,120,Open,2026-09-11,08:00,10:00,,,Station-B,Station-C,24,High,0.88
+SMMS012,S&T,A6,Interlocking Fault,180,Open,2026-09-14,14:00,17:00,1.0,0.0,Station-F,Station-G,25,Medium,0.87
+SMMS001,S&T,A1,Signal Lamp Failure,60,Open,2026-09-09,11:00,12:00,,,Station-A,Station-B,26,High,0.84
+TMS002,Engineering,A1,Ballast Defect,90,Open,,,,,,Station-A,Station-B,27,Medium,0.84
+TDMS010,TRD,A5,Oil Leakage,180,Open,2026-09-11,10:00,13:00,1.0,1.0,Station-E,Station-F,29,High,0.82
+SMMS002,S&T,A1,Point Machine Fault,120,Open,,,,,,Station-A,Station-B,28,Critical,0.82
+TMS001,Engineering,A1,Rail Crack,120,Open,2026-09-08,10:00,12:00,4.0,3.0,Station-A,Station-B,30,Critical,0.78
+TDMS003,TRD,A2,Contact Wire Wear,150,Open,2026-09-10,14:00,16:30,,,Station-B,Station-C,31,High,0.77
+SMMS003,S&T,A2,Track Circuit Failure,150,Open,2026-09-09,10:00,12:30,4.0,2.0,Station-B,Station-C,32,High,0.77
+TMS006,Engineering,A3,Joint Failure,150,Open,2026-09-11,15:00,17:30,4.0,3.0,Station-C,Station-D,33,High,0.75
+TDMS005,TRD,A3,Oil Leakage,180,Open,2026-09-12,11:00,14:00,,,Station-C,Station-D,34,High,0.74
+TMS003,Engineering,A2,Track Geometry,180,Open,2026-09-09,09:00,12:00,4.0,2.0,Station-B,Station-C,35,High,0.72
+TMS010,Engineering,A5,Track Geometry,120,Open,2026-09-10,09:00,11:00,3.0,2.0,Station-E,Station-F,36,High,0.68
